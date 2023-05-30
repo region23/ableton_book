@@ -2,8 +2,9 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/",
   title: "The Hitchhiker's Guide to the Ableton",
-  description: "Учебник по Ableton Live и созданию музыки в нём",
+  description: "Ещё один учебник по Ableton Live",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
