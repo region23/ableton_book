@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  srcDir: "src",
   base: "/",
   title: "The Hitchhiker's Guide to the Ableton",
   description: "Ещё один учебник по Ableton Live",
